@@ -1,6 +1,6 @@
 # Next Level Week 2 - Proffy
 
-![](web/src/assets/images/logo.svg)
+![](web/src/assets/images/logo_black.svg)
 
 Repositório para praticar React e outras tecnologias apresentadas no Next Level Week 2 da Rocketseat, entre 3 a 9 de Agosto de 2020.
 

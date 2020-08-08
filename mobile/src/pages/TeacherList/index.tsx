@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, ScrollView, Text, TextInput } from 'react-native';
+import { View, ScrollView, Text, TextInput, Keyboard } from 'react-native';
 import { BorderlessButton, RectButton } from 'react-native-gesture-handler';
 import { Feather } from '@expo/vector-icons'
 
@@ -29,6 +29,7 @@ function TeacherList(){
         });
 
         setIsFiltersVisible(false);
+        Keyboard.dismiss;
         setTeachers(response.data);
     }
 
